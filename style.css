@@ -1,0 +1,79 @@
+/* Fonte moderna aplicada no corpo */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(270deg, #ff6f61, #ffcc00, #00c6ff, #0072ff);
+  background-size: 800% 800%;
+  animation: fundoAnimado 30s ease infinite; /* movimento mais lento */
+  padding: 20px; /* espaço interno geral da página */
+}
+
+@keyframes fundoAnimado {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+header {
+  background: linear-gradient(90deg, #ff6f61, #ffcc00);
+  color: white;
+  padding: 1.5rem; /* mais espaço interno no cabeçalho */
+  font-family: 'Montserrat', sans-serif; /* títulos chamativos */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0; /* remove espaço extra da lista */
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 8px 12px; /* espaço interno nos links */
+  border-radius: 5px; /* cantos arredondados */
+  font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover {
+  color: #ff4081;
+  background: rgba(255, 255, 255, 0.3); /* destaque suave ao passar o mouse */
+}
+
+section {
+  padding: 2rem; /* espaço interno nas seções */
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif; /* títulos com fonte moderna */
+}
+
+#lista-projetos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem; /* mais espaço entre os cards */
+}
+
+.projeto {
+  border: 2px solid #4caf50;
+  background: #e8f5e9;
+  transition: transform 0.3s, background 0.3s;
+  padding: 20px; /* espaço interno dentro dos cards */
+  border-radius: 10px; /* cantos arredondados */
+  font-family: 'Poppins', sans-serif;
+}
+.projeto:hover {
+  transform: scale(1.05);
+  background: #c8e6c9;
+}
+
+footer {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+  padding: 1.5rem; /* mais espaço interno no rodapé */
+  font-family: 'Montserrat', sans-serif;
+}
