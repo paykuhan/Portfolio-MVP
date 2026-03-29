@@ -3,7 +3,7 @@ const projetos = [
   {
     titulo: "Portfólio",
     descricao: "Primeira versão do meu portfólio usando HTML, CSS e JS.",
-    link: "https://github.com/paykuhan/Portifolio-MPV"
+    link: "https://github.com/paykuhan/Portfolio-MVP"
   },
   {
     titulo: "Calculadora",
