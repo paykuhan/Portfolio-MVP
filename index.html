@@ -3,53 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dawillams | Portfólio</title>
+  <title>Dawillams | Portfólio Profissional</title>
   
-  <!-- Importando fontes do Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
   <header>
-    <nav>
-      <ul>
-        <li><a href="#sobre">Sobre mim</a></li>
-        <li><a href="#projetos">Meus Projetos</a></li>
-      </ul>
-    </nav>
+    <div class="header-container">
+      <div class="logo">D/M</div>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section id="sobre">
-      <h1>Sobre mim</h1>
-      <p>Olá! Sou Dawillams.</p> 
-      <p>Trabalho de forma autônoma com montagem e manutenção de computadores.</p> 
-      <p>Desenvolvedor iniciante e fascinado por tecnologia desde a infância.</p> 
-      <p>Atualmente sou graduando no curso de Tecnologia em Sistemas para a Internet.</p>
-      <p>Desejo no futuro ser um desenvolvedor web capaz de transformar linhas de códigos
-        em soluções reais que facilitem a vida das pessoas.</p>
+      <div class="container">
+        <h1>Olá! Sou Dawillams Monteiro.</h1>
+        <p class="legenda">Trabalho com montagem e manutenção de computadores.</p>
+        
+        <p>Graduando em Tecnologia em Sistemas para a Internet. Desenvolvedor iniciante, fascinado por tecnologia desde a infância.</p> 
+        <p>Desejo transformar linhas de códigos em soluções reais que facilitem a vida das pessoas.</p>
+        <a href="#projetos" class="btn-primary">Ver Meus Projetos</a>
+      </div>
     </section>
 
     <section id="projetos">
-      <h2>Meus Projetos</h2>
-      <div id="lista-projetos"></div>
+      <div class="container">
+        <h2>Meus Projetos</h2>
+        <div id="lista-projetos">
+          </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 - Desenvolvido por Dawillams</p>
-    <p>
-    <a href="https://www.facebook.com/dawillams.monteiro" target="_blank">Facebook</a> |
-    <a href="https://www.instagram.com/dawillamsmonteiro/" target="_blank">Instagram</a> |
-    <a href="https://www.linkedin.com/in/dawillams-monteiro-b24a0315b/" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/paykuhan" target="_blank">GitHub</a>
-  </p>
+    <div class="container">
+      <p>© 2026 - Desenvolvido por Dawillams Monteiro</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/dawillams.monteiro" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/dawillamsmonteiro/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/dawillams-monteiro-b24a0315b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/paykuhan" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
   </footer>
+
+  <a href="https://wa.me/5586994941106?text=Olá%20Dawillams,%20vi%20seu%20portfólio%20e%20quero%20conversar!" 
+     target="_blank" 
+     class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i> Fale comigo
+  </a>
 
   <script src="script.js"></script>
 </body>
 </html>
-<a href="https://wa.me/5586994941106?text=Olá%20Dawillams,%20vi%20seu%20portfólio%20e%20quero%20conversar!" target="_blank">
-  Fale comigo no WhatsApp
-</a>
